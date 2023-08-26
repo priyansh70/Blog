@@ -1,28 +1,33 @@
 const navbar = [
   {
     id: "home",
-    path: "/",
     title: "Home",
+    type : "link"
+
   },
   {
     id: "articles",
-    path: "/articles",
     title: "Articles",
+    type : "link"
+
   },
   {
     id: "pages",
-    path: "/pages",
     title: "Pages",
+    type : "dropdown",
+    items : ["About us","Contact us"]
   },
   {
     id: "pricing",
-    path: "/pricing",
     title: "Pricing",
+    type : "link"
+
   },
   {
     id: "faq",
-    path: "/faq",
     title: "Faq",
+    type : "link"
+
   },
 ];
 
