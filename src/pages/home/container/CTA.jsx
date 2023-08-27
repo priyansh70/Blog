@@ -55,11 +55,9 @@ const CTA = () => {
                 />
                 <div className="p-5">
                   <h2 className="font-roboto font-bold text-xl text-dark-soft md:text-2xl lg:text-[28px]">
-                    Future of Work
+                  The best aticles every week
                   </h2>
-                  <p className="text-dark-light mt-3 text-sm md:text-lg ">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Similique, qui.
+                  <p className="text-dark-light mt-3 text-sm md:text-lg ">Our insurance plans offers are priced the same everywhere else.
                   </p>
                 </div>
               </div>
