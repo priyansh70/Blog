@@ -28,8 +28,9 @@ const NavItem = ({ nav }) => {
           <div className={`${dropdown ? "block" : "hidden"} lg:hidden transition-all duration-500 pt-4 lg:absolute lg:bottom-0 lg:right-0 lg:transform lg:translate-y-full lg:group-hover:block w-max`}>
             <ul className="bg-dark-soft lg:bg-transparent flex flex-col shadow-lg rounded-lg overflow-hidden">
               {
-                nav.items.map((page) => (
-                  <a href="/" className='hover:bg-dark-hard hover:text-white px-4 py-2 text-white lg:text-dark-soft '>
+                nav.items.map((page,index) => (
+                  <a href="/" className='hover:bg-dark-hard hover:text-white px-4 py-2 text-white lg:text-dark-soft '
+                  key={index}>
                     {page}
                   </a>
                 ))
